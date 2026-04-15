@@ -1,0 +1,49 @@
+# ==========================================
+# Ignorar arquivos compilados e empacotados
+# ==========================================
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# Ignorar logs de erro da Máquina Virtual Java
+# ==========================================
+hs_err_pid*
+replay_pid*
+*.log
+
+# ==========================================
+# Ignorar pastas de Build do Maven
+# ==========================================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Ignorar configurações locais do VS Code e Eclipse
+# (A extensão Java do VS Code usa arquivos do Eclipse)
+# ==========================================
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+*.code-workspace
+
+# ==========================================
+# Ignorar arquivos temporários do Windows
+# ==========================================
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
